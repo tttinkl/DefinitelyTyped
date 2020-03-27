@@ -182,6 +182,7 @@ declare namespace OSS {
         name: string;
         data: object;
         res: NormalSuccessResponse;
+        url: string;
     }
 
     interface PutStreamOptions {
